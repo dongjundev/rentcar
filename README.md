@@ -93,6 +93,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 ## MSA 아키텍처 구성도
 
 ## 도메인 분석 - 이벤트스토밍
+![Uploading image.png…]()
 
 ## 분산트랜잭션 - Saga
 
