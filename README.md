@@ -101,7 +101,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 ![image](https://github.com/dongjundev/rentcar/assets/60119368/ab2d2b58-2bf5-49f5-bcda-4c8dd7968a6e)
 
-![image](https://github.com/dongjundev/rentcar/assets/60119368/83dcb74f-70a1-4836-b2fd-d0436dcc7f7a)
+![image](https://github.com/dongjundev/rentcar/assets/60119368/9f6731b6-3cda-46de-b40e-c32cb41a5e94)
 
 ![image](https://github.com/dongjundev/rentcar/assets/60119368/038f779c-3dff-446e-872c-e29647189f27)
 
