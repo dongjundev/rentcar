@@ -17,7 +17,7 @@ spec:
       containers: 
         - 
           name: "customercenter"
-          image: "yh02195/customercenter:0403"
+          image: "yh02195/customercenter:0405"
           ports: 
             - 
               containerPort: 8080
