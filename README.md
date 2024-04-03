@@ -117,6 +117,12 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 
 ## 단일 진입점 - Gateway
+<img width="506" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/2bf0e415-9207-45e7-b68f-13480db9c2c6">
+
+<img width="1161" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/88551312-48f6-4875-8f67-be943aa5ffb0">
+
+<img width="1081" alt="3" src="https://github.com/dongjundev/rentcar/assets/60119368/5778ce19-93f0-4be4-9a26-43a18d53b8df">
+
 
 ## 분산 데이터 프로젝션 - CQRS
 
