@@ -48,29 +48,7 @@ public class Reserve {
 
     //<<< Clean Arch / Port Method
     public static void outOfStockCancel(OutofStock outofStock) {
-        //implement business logic here:
-
-        /** Example 1:  new item 
-        Reserve reserve = new Reserve();
-        repository().save(reserve);
-
-        CarReservationCanceled carReservationCanceled = new CarReservationCanceled(reserve);
-        carReservationCanceled.publishAfterCommit();
-        */
-
-        /** Example 2:  finding and process
-        
-        repository().findById(outofStock.get???()).ifPresent(reserve->{
-            
-            reserve // do something
-            repository().save(reserve);
-
-            CarReservationCanceled carReservationCanceled = new CarReservationCanceled(reserve);
-            carReservationCanceled.publishAfterCommit();
-
-         });
-        */
-
+        repository().deleteById(outofStock.getReserveId());
     }
     //>>> Clean Arch / Port Method
 

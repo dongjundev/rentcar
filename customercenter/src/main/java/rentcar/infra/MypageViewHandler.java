@@ -27,7 +27,7 @@ public class MypageViewHandler {
             // view 객체 생성
             Mypage mypage = new Mypage();
             // view 객체에 이벤트의 Value 를 set 함
-            mypage.setReserveId(String.valueOf(carReserved.getId()));
+            mypage.setReserveId(carReserved.getId());
             mypage.setUserId(carReserved.getUserId());
             mypage.setCarId(carReserved.getCarId());
             mypage.setQty(carReserved.getQty());
@@ -45,9 +45,7 @@ public class MypageViewHandler {
         try {
             if (!carReservationCanceled.validate()) return;
             // view 레파지 토리에 삭제 쿼리
-            mypageRepository.deleteByReserveId(
-                String.valueOf(carReservationCanceled.getId())
-            );
+            mypageRepository.deleteByReserveId(carReservationCanceled.getId());
         } catch (Exception e) {
             e.printStackTrace();
         }

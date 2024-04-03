@@ -48,62 +48,35 @@ public class Car {
 
     //<<< Clean Arch / Port Method
     public static void decreaseCar(CarReserved carReserved) {
-        //implement business logic here:
+        repository().findById(carReserved.getCarId()).ifPresent(car->{
+            Integer stock = car.getStock();
+            Integer qty = carReserved.getQty();
 
-        /** Example 1:  new item 
-        Car car = new Car();
-        repository().save(car);
+            if (stock >= qty) {
+                car.setStock(stock - qty);
+                repository().save(car);
 
-        CarDecreased carDecreased = new CarDecreased(car);
-        carDecreased.publishAfterCommit();
-        OutofStock outofStock = new OutofStock(car);
-        outofStock.publishAfterCommit();
-        */
-
-        /** Example 2:  finding and process
-        
-        repository().findById(carReserved.get???()).ifPresent(car->{
-            
-            car // do something
-            repository().save(car);
-
-            CarDecreased carDecreased = new CarDecreased(car);
-            carDecreased.publishAfterCommit();
-            OutofStock outofStock = new OutofStock(car);
-            outofStock.publishAfterCommit();
-
+//                CarDecreased carDecreased = new CarDecreased();
+//                carDecreased.publishAfterCommit();
+            } else {
+                OutofStock outofStock = new OutofStock(car);
+                outofStock.publishAfterCommit();
+            }
          });
-        */
 
     }
 
     //>>> Clean Arch / Port Method
     //<<< Clean Arch / Port Method
-    public static void increaseCar(
-        CarReservationCanceled carReservationCanceled
-    ) {
-        //implement business logic here:
-
-        /** Example 1:  new item 
-        Car car = new Car();
-        repository().save(car);
-
-        CarIncreased carIncreased = new CarIncreased(car);
-        carIncreased.publishAfterCommit();
-        */
-
-        /** Example 2:  finding and process
-        
-        repository().findById(carReservationCanceled.get???()).ifPresent(car->{
-            
-            car // do something
+    public static void increaseCar(CarReservationCanceled carReservationCanceled) {
+        repository().findById(carReservationCanceled.getCarId()).ifPresent(car->{
+            Integer stock = car.getStock();
+            car.setStock(stock + carReservationCanceled.getQty());
             repository().save(car);
 
-            CarIncreased carIncreased = new CarIncreased(car);
-            carIncreased.publishAfterCommit();
-
+//            CarIncreased carIncreased = new CarIncreased(car);
+//            carIncreased.publishAfterCommit();
          });
-        */
 
     }
     //>>> Clean Arch / Port Method

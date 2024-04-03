@@ -8,5 +8,5 @@ import rentcar.domain.*;
 @RepositoryRestResource(collectionResourceRel = "mypages", path = "mypages")
 public interface MypageRepository
     extends PagingAndSortingRepository<Mypage, Long> {
-    void deleteByReserveId(String reserveId);
+    void deleteByReserveId(Long reserveId);
 }

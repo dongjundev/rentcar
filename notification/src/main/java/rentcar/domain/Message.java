@@ -29,52 +29,20 @@ public class Message {
     }
 
     //<<< Clean Arch / Port Method
-    public static void notifyToUser(
-        CarReservationCanceled carReservationCanceled
-    ) {
-        //implement business logic here:
-
-        /** Example 1:  new item 
+    public static void notifyToUser(CarReservationCanceled carReservationCanceled) {
         Message message = new Message();
+        message.setUserId(carReservationCanceled.getUserId());
+        message.setContent("xxx님 xxx x대 예약 취소되었습니다.");
         repository().save(message);
-
-        */
-
-        /** Example 2:  finding and process
-        
-        repository().findById(carReservationCanceled.get???()).ifPresent(message->{
-            
-            message // do something
-            repository().save(message);
-
-
-         });
-        */
-
     }
 
     //>>> Clean Arch / Port Method
     //<<< Clean Arch / Port Method
     public static void notifyToUser(CarReserved carReserved) {
-        //implement business logic here:
-
-        /** Example 1:  new item 
         Message message = new Message();
+        message.setUserId(carReserved.getUserId());
+        message.setContent("xxx님 xxx x대 예약되었습니다.");
         repository().save(message);
-
-        */
-
-        /** Example 2:  finding and process
-        
-        repository().findById(carReserved.get???()).ifPresent(message->{
-            
-            message // do something
-            repository().save(message);
-
-
-         });
-        */
-
     }
     //>>> Clean Arch / Port Method
 

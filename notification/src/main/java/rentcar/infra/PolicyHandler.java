@@ -27,9 +27,7 @@ public class PolicyHandler {
         value = KafkaProcessor.INPUT,
         condition = "headers['type']=='CarReservationCanceled'"
     )
-    public void wheneverCarReservationCanceled_NotifyToUser(
-        @Payload CarReservationCanceled carReservationCanceled
-    ) {
+    public void wheneverCarReservationCanceled_NotifyToUser(@Payload CarReservationCanceled carReservationCanceled) {
         CarReservationCanceled event = carReservationCanceled;
         System.out.println(
             "\n\n##### listener NotifyToUser : " +
@@ -45,9 +43,7 @@ public class PolicyHandler {
         value = KafkaProcessor.INPUT,
         condition = "headers['type']=='CarReserved'"
     )
-    public void wheneverCarReserved_NotifyToUser(
-        @Payload CarReserved carReserved
-    ) {
+    public void wheneverCarReserved_NotifyToUser(@Payload CarReserved carReserved) {
         CarReserved event = carReserved;
         System.out.println(
             "\n\n##### listener NotifyToUser : " + carReserved + "\n\n"
