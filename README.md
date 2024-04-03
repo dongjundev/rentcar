@@ -93,9 +93,18 @@ sudo mv /tmp/eksctl /usr/local/bin
 ## MSA 아키텍처 구성도
 
 ## 도메인 분석 - 이벤트스토밍
-![Uploading image.png…]()
+![image](https://github.com/dongjundev/rentcar/assets/60119368/643575c4-0994-4760-9ed0-11dcca711602)
 
 ## 분산트랜잭션 - Saga
+
+![image](https://github.com/dongjundev/rentcar/assets/60119368/c50245b7-f282-44de-94f5-018b3881d7ac)
+
+![image](https://github.com/dongjundev/rentcar/assets/60119368/ab2d2b58-2bf5-49f5-bcda-4c8dd7968a6e)
+
+![image](https://github.com/dongjundev/rentcar/assets/60119368/83dcb74f-70a1-4836-b2fd-d0436dcc7f7a)
+
+![image](https://github.com/dongjundev/rentcar/assets/60119368/038f779c-3dff-446e-872c-e29647189f27)
+
 
 ## 보상처리 - Compensation
 
