@@ -107,6 +107,14 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 
 ## 보상처리 - Compensation
+![image](https://github.com/dongjundev/rentcar/assets/60119368/d4faebe1-70a6-491a-b985-4295a037e667)
+
+![image](https://github.com/dongjundev/rentcar/assets/60119368/7f440903-7fcb-445d-a485-25cd4c94a0c5)
+
+![image](https://github.com/dongjundev/rentcar/assets/60119368/e929d444-5731-4734-834e-2be4985c7225)
+
+![image](https://github.com/dongjundev/rentcar/assets/60119368/bc0bfd1f-fd20-4494-a5f7-4048a2ec1cb5)
+
 
 ## 단일 진입점 - Gateway
 
