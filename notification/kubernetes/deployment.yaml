@@ -1,0 +1,23 @@
+apiVersion: "apps/v1"
+kind: "Deployment"
+metadata: 
+  name: "notification"
+  labels: 
+    app: "notification"
+spec: 
+  selector: 
+    matchLabels: 
+      app: "notification"
+  replicas: 1
+  template: 
+    metadata: 
+      labels: 
+        app: "notification"
+    spec: 
+      containers: 
+        - 
+          name: "notification"
+          image: "yh02195/notification:0403"
+          ports: 
+            - 
+              containerPort: 8080
