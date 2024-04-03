@@ -26,17 +26,17 @@ public class Car {
 
     @PostPersist
     public void onPostPersist() {
-        CarDecreased carDecreased = new CarDecreased(this);
-        carDecreased.publishAfterCommit();
-
-        OutofStock outofStock = new OutofStock(this);
-        outofStock.publishAfterCommit();
+//        CarDecreased carDecreased = new CarDecreased(this);
+//        carDecreased.publishAfterCommit();
+//
+//        OutofStock outofStock = new OutofStock(this);
+//        outofStock.publishAfterCommit();
     }
 
     @PostUpdate
     public void onPostUpdate() {
-        CarIncreased carIncreased = new CarIncreased(this);
-        carIncreased.publishAfterCommit();
+//        CarIncreased carIncreased = new CarIncreased(this);
+//        carIncreased.publishAfterCommit();
     }
 
     public static CarRepository repository() {
