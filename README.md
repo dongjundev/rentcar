@@ -89,3 +89,29 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 sudo mv /tmp/eksctl /usr/local/bin
 ```
 
+# Check List
+## MSA 아키텍처 구성도
+
+## 도메인 분석 - 이벤트스토밍
+
+## 분산트랜잭션 - Saga
+
+## 보상처리 - Compensation
+
+## 단일 진입점 - Gateway
+
+## 분산 데이터 프로젝션 - CQRS
+
+## 클라우드 배포 - Container 운영
+
+## 컨테이너 자동확장 - HPA
+
+## 컨테이너로부터 환경분리 - ConfigMap/Secret
+
+## 클라우드스토리지 활용 - PVC
+
+## 셀프 힐링/무정지 배포 - Liveness/Rediness Probe
+
+## 서비스 메쉬 응용 - Mesh
+
+## 통합 모니터링 - Loggregation/Monitoring
