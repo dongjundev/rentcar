@@ -135,11 +135,15 @@ sudo mv /tmp/eksctl /usr/local/bin
 ## 클라우드 배포 - Container 운영
 <img width="1219" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/793ebe06-6d1e-4b52-a3f0-57ffcc4535a3">
 
+
 ## 컨테이너 자동확장 - HPA
 
 ## 컨테이너로부터 환경분리 - ConfigMap/Secret
 
 ## 클라우드스토리지 활용 - PVC
+
+<img width="1192" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/5a390b3e-b4e2-4598-a94b-f95adfddd81d">
+
 
 ## 셀프 힐링/무정지 배포 - Liveness/Rediness Probe
 
