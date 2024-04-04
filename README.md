@@ -141,6 +141,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 ## 컨테이너로부터 환경분리 - ConfigMap/Secret
 
 ## 클라우드스토리지 활용 - PVC
+<img width="558" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/2fe0ac45-a1d8-4750-830e-22e2b16a6d00">
 
 <img width="1192" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/5a390b3e-b4e2-4598-a94b-f95adfddd81d">
 
