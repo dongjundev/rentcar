@@ -137,11 +137,18 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 
 ## 컨테이너 자동확장 - HPA
+<img width="515" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/35b53f96-92c9-4120-96a1-5b3729c30130">
+<img width="567" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/4cbb8f2d-4687-4038-8bc0-d88c2f1b0c66">
+<img width="567" alt="3" src="https://github.com/dongjundev/rentcar/assets/60119368/c0941db7-e881-4d1f-a136-2ee60e641ccc">
+
+
+
 
 ## 컨테이너로부터 환경분리 - ConfigMap/Secret
 <img width="562" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/6daa0d5e-7d19-46d5-973d-dd594abd1d2b">
 
 <img width="412" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/49ba3e69-88a5-4610-8c75-385413b0054e">
+<img width="943" alt="스크린샷 2024-04-04 오후 11 15 19" src="https://github.com/dongjundev/rentcar/assets/60119368/e5536d23-39d9-492e-8ee3-162f1a5da0f3">
 
 <img width="1000" alt="3" src="https://github.com/dongjundev/rentcar/assets/60119368/cb4d2b60-03b7-4285-9f9d-2b39a8e5ea28">
 
@@ -168,3 +175,4 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 
 ## 통합 모니터링 - Loggregation/Monitoring
+<img width="1294" alt="스크린샷 2024-04-04 오후 11 09 01" src="https://github.com/dongjundev/rentcar/assets/60119368/715ee300-1af0-4e82-a15e-ecf2025a884e">
