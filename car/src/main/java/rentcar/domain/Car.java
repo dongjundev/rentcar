@@ -60,6 +60,7 @@ public class Car {
 //                carDecreased.publishAfterCommit();
             } else {
                 OutofStock outofStock = new OutofStock(car);
+                outofStock.setReserveId(carReserved.getId());
                 outofStock.publishAfterCommit();
             }
          });
