@@ -1,23 +1,30 @@
 apiVersion: "apps/v1"
 kind: "Deployment"
-metadata: 
+metadata:
   name: "notification"
-  labels: 
+  labels:
     app: "notification"
-spec: 
-  selector: 
-    matchLabels: 
+spec:
+  selector:
+    matchLabels:
       app: "notification"
   replicas: 1
-  template: 
-    metadata: 
-      labels: 
+  template:
+    metadata:
+      labels:
         app: "notification"
-    spec: 
-      containers: 
-        - 
+    spec:
+      containers:
+        -
           name: "notification"
           image: "yh02195/notification:00"
-          ports: 
-            - 
+          ports:
+            -
               containerPort: 8080
+          volumeMounts:
+            - mountPath: "/usr/share"
+              name: pv-volume
+      volumes:
+        - name: pv-volume
+          persistentVolumeClaim:
+            claimName: pv-volume
