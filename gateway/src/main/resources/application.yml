@@ -64,8 +64,7 @@ spring:
         - id: customercenter
           uri: http://customercenter:8080
           predicates:
-            - Path=/mypages/**,
-            - Path=/getloglevel/**
+            - Path=/mypages/**,/getloglevel/**
         - id: frontend
           uri: http://frontend:8080
           predicates:
