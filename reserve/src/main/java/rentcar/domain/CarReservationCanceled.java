@@ -16,6 +16,8 @@ public class CarReservationCanceled extends AbstractEvent {
     private Long carId;
     private Integer qty;
 
+    private boolean outOfStock;
+
     public CarReservationCanceled(Reserve aggregate) {
         super(aggregate);
     }

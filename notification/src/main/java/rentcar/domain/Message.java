@@ -32,7 +32,12 @@ public class Message {
     public static void notifyToUser(CarReservationCanceled carReservationCanceled) {
         Message message = new Message();
         message.setUserId(carReservationCanceled.getUserId());
-        message.setContent("xxx님 xxx x대 예약 취소되었습니다.");
+
+        if (carReservationCanceled.isOutOfStock()) {
+            message.setContent("xxx님. 차량 수 부족으로, xxx x대 예약 취소되었습니다.");
+        } else {
+            message.setContent("xxx님. xxx x대 예약 취소되었습니다.");
+        }
         repository().save(message);
     }
 

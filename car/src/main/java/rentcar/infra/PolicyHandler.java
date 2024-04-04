@@ -50,7 +50,9 @@ public class PolicyHandler {
         );
 
         // Sample Logic //
-        Car.increaseCar(event);
+        if (!carReservationCanceled.isOutOfStock()) {
+            Car.increaseCar(event);
+        }
     }
 }
 //>>> Clean Arch / Inbound Adaptor

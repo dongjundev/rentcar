@@ -25,10 +25,15 @@ public class Reserve {
 
     private Integer qty;
 
+    @Transient
+    private boolean outOfStock = false;
+
     @PostPersist
     public void onPostPersist() {
-        CarReserved carReserved = new CarReserved(this);
-        carReserved.publishAfterCommit();
+        if (!this.isOutOfStock()) {
+            CarReserved carReserved = new CarReserved(this);
+            carReserved.publishAfterCommit();
+        }
     }
 
     @PreRemove
@@ -48,6 +53,10 @@ public class Reserve {
 
     //<<< Clean Arch / Port Method
     public static void outOfStockCancel(OutofStock outofStock) {
+        repository().findById(outofStock.getReserveId()).ifPresent(reserve -> {
+            reserve.setOutOfStock(true);
+            repository().save(reserve);
+        });
         repository().deleteById(outofStock.getReserveId());
     }
     //>>> Clean Arch / Port Method

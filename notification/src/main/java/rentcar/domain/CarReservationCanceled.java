@@ -13,4 +13,6 @@ public class CarReservationCanceled extends AbstractEvent {
     private String userId;
     private Long carId;
     private Integer qty;
+
+    private boolean outOfStock;
 }
