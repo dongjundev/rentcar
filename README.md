@@ -153,7 +153,6 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 
 ## 셀프 힐링/무정지 배포 - Liveness/Rediness Probe
-#정상<br>
 <img width="583" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/edef300c-7d68-4062-a346-2fa581117d60">
 
 #비정상<br>
