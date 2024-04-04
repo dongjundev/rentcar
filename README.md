@@ -107,13 +107,13 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 
 ## 보상처리 - Compensation
-![image](https://github.com/dongjundev/rentcar/assets/60119368/d4faebe1-70a6-491a-b985-4295a037e667)
+<img width="943" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/750d2837-8643-448f-b593-bb64e4c5d505">
 
-![image](https://github.com/dongjundev/rentcar/assets/60119368/7f440903-7fcb-445d-a485-25cd4c94a0c5)
+<img width="1165" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/88b5079e-2a02-4bef-a774-830f538f9a24">
 
-![image](https://github.com/dongjundev/rentcar/assets/60119368/e929d444-5731-4734-834e-2be4985c7225)
+<img width="918" alt="3" src="https://github.com/dongjundev/rentcar/assets/60119368/e9d2605d-ecdc-4e82-9dad-f1a3aa9bfd2c">
 
-![image](https://github.com/dongjundev/rentcar/assets/60119368/bc0bfd1f-fd20-4494-a5f7-4048a2ec1cb5)
+<img width="937" alt="4" src="https://github.com/dongjundev/rentcar/assets/60119368/81d43e83-5431-49ad-9a72-56c3db1e4097">
 
 
 ## 단일 진입점 - Gateway
