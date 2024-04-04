@@ -139,6 +139,12 @@ sudo mv /tmp/eksctl /usr/local/bin
 ## 컨테이너 자동확장 - HPA
 
 ## 컨테이너로부터 환경분리 - ConfigMap/Secret
+<img width="562" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/6daa0d5e-7d19-46d5-973d-dd594abd1d2b">
+
+<img width="412" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/49ba3e69-88a5-4610-8c75-385413b0054e">
+
+<img width="1000" alt="3" src="https://github.com/dongjundev/rentcar/assets/60119368/cb4d2b60-03b7-4285-9f9d-2b39a8e5ea28">
+
 
 ## 클라우드스토리지 활용 - PVC
 <img width="558" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/2fe0ac45-a1d8-4750-830e-22e2b16a6d00">
