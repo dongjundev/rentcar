@@ -161,8 +161,11 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 
 ## 서비스 메쉬 응용 - Mesh
-<img width="1141" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/cbeeed56-6217-45b3-80d5-8c1826e69197">
-<img width="1141" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/3094014e-ad9d-42df-a903-08cb8f9521b0">
+<img width="1141" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/2ac95607-2a98-4edc-82d5-c597720191ed">
+#reserve에만 적용<br>
+#kubectl apply -f <(istioctl kube-inject -f reserve/kubernetes/deployment.yaml)
+<img width="501" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/874b6fc5-903a-4772-a82f-bcaf523d2474">
+
 
 
 ## 통합 모니터링 - Loggregation/Monitoring
