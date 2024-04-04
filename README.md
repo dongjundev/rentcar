@@ -155,5 +155,8 @@ sudo mv /tmp/eksctl /usr/local/bin
 ## 셀프 힐링/무정지 배포 - Liveness/Rediness Probe
 
 ## 서비스 메쉬 응용 - Mesh
+<img width="1141" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/cbeeed56-6217-45b3-80d5-8c1826e69197">
+<img width="1141" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/3094014e-ad9d-42df-a903-08cb8f9521b0">
+
 
 ## 통합 모니터링 - Loggregation/Monitoring
