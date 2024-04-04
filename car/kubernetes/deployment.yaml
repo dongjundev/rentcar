@@ -17,7 +17,7 @@ spec:
       containers: 
         - 
           name: "car"
-          image: "yh02195/car:00"
+          image: "yh02195/car:01"
           ports: 
             - 
               containerPort: 8080
