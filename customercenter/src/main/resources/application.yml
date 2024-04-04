@@ -80,5 +80,7 @@ spring:
         event-out:
           destination: rentcar
           contentType: application/json
+  log:
+    level: ${LOG_LEVEL:INFO}
 
 
