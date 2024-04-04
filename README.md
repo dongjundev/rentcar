@@ -139,6 +139,12 @@ sudo mv /tmp/eksctl /usr/local/bin
 ## 컨테이너 자동확장 - HPA
 
 ## 컨테이너로부터 환경분리 - ConfigMap/Secret
+<img width="562" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/6daa0d5e-7d19-46d5-973d-dd594abd1d2b">
+
+<img width="412" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/49ba3e69-88a5-4610-8c75-385413b0054e">
+
+<img width="1000" alt="3" src="https://github.com/dongjundev/rentcar/assets/60119368/cb4d2b60-03b7-4285-9f9d-2b39a8e5ea28">
+
 
 ## 클라우드스토리지 활용 - PVC
 <img width="558" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/2fe0ac45-a1d8-4750-830e-22e2b16a6d00">
@@ -149,5 +155,8 @@ sudo mv /tmp/eksctl /usr/local/bin
 ## 셀프 힐링/무정지 배포 - Liveness/Rediness Probe
 
 ## 서비스 메쉬 응용 - Mesh
+<img width="1141" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/cbeeed56-6217-45b3-80d5-8c1826e69197">
+<img width="1141" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/3094014e-ad9d-42df-a903-08cb8f9521b0">
+
 
 ## 통합 모니터링 - Loggregation/Monitoring
