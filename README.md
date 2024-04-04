@@ -125,8 +125,15 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 
 ## 분산 데이터 프로젝션 - CQRS
+<img width="1127" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/ba7a77d1-58e4-46be-8cf6-a2f239546bda">
+
+<img width="1127" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/c41eeda7-87da-4c6f-be88-f62cf5018066">
+
+<img width="1045" alt="3" src="https://github.com/dongjundev/rentcar/assets/60119368/222e28b0-6428-4c68-9ae6-637bb5afbb7f">
+
 
 ## 클라우드 배포 - Container 운영
+<img width="1219" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/793ebe06-6d1e-4b52-a3f0-57ffcc4535a3">
 
 ## 컨테이너 자동확장 - HPA
 
