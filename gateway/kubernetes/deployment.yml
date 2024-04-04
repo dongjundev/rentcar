@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: yh02195/gateway:00
+          image: yh02195/gateway:01
           ports:
             - containerPort: 8080
