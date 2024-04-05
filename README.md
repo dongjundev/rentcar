@@ -118,11 +118,12 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 
 ## 단일 진입점 - Gateway
-<img width="1161" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/88551312-48f6-4875-8f67-be943aa5ffb0">
+<img width="1159" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/dafbc21a-d50c-41fe-8ebc-99f7f8c24e16">
 
-<img width="506" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/2bf0e415-9207-45e7-b68f-13480db9c2c6">
+<img width="573" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/b7e6f619-9f48-4cb6-8e38-b3761ae92064">
 
-<img width="1081" alt="3" src="https://github.com/dongjundev/rentcar/assets/60119368/5778ce19-93f0-4be4-9a26-43a18d53b8df">
+<img width="921" alt="3" src="https://github.com/dongjundev/rentcar/assets/60119368/8afaac7a-a86f-405c-be4a-c3fffbc10146">
+
 
 
 ## 분산 데이터 프로젝션 - CQRS
@@ -138,8 +139,8 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 
 ## 컨테이너 자동확장 - HPA
-<img width="515" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/35b53f96-92c9-4120-96a1-5b3729c30130">
-<img width="567" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/4cbb8f2d-4687-4038-8bc0-d88c2f1b0c66">
+<img width="515" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/35b53f96-92c9-4120-96a1-5b3729c30130"><br>
+<img width="445" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/a2d95bd7-3661-47c7-997f-a71b76807252">
 <img width="567" alt="3" src="https://github.com/dongjundev/rentcar/assets/60119368/c0941db7-e881-4d1f-a136-2ee60e641ccc">
 
 
