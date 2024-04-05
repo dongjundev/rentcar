@@ -180,4 +180,5 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 ## 통합 모니터링 - Loggregation/Monitoring
 <img width="1524" alt="1" src="https://github.com/dongjundev/rentcar/assets/60119368/66f76c8c-5814-4ab8-b727-b57a0f426a25">
-<img width="1436" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/9a151bcc-a290-4621-8cc4-78f873c9e651">
+<img width="1436" alt="2" src="https://github.com/dongjundev/rentcar/assets/60119368/946ab431-e58a-4703-8129-b5f3b830f57d">
+
