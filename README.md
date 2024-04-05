@@ -91,7 +91,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 # Check List
 ## MSA 아키텍처 구성도
-<img width="1205" alt="arch" src="https://github.com/dongjundev/rentcar/assets/60119368/d06e7848-821c-4497-8221-02595c7f4dae">
+<img width="681" alt="arch" src="https://github.com/dongjundev/rentcar/assets/60119368/69fb763b-fe11-4ac7-b2f9-cbf7a1bc04d1">
 
 ## 도메인 분석 - 이벤트스토밍
 ![image](https://github.com/dongjundev/rentcar/assets/60119368/643575c4-0994-4760-9ed0-11dcca711602)
